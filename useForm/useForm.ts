@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { I_Form } from "../helpers/I-FormApp";
+import { I_Form } from "./I-FormApp";
 
 export const useForm = ( objForm:I_Form ) =>{
 

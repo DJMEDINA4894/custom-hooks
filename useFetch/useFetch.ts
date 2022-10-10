@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { I_BreakingBad, I_ObjCustomHook } from '../helpers/I-MultipleCustomHooks';
+import { I_BreakingBad, I_ObjCustomHook } from './I-MultipleCustomHooks';
 
 export const useFetch = ( objEmptyBreakingBad:I_BreakingBad[], url:string ) => {
 

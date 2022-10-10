@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../components/08-useReducer/todReducer";
-import { I_ActionTodo, I_InitialTodo } from "../helpers/I-UseReducer";
+import { todoReducer } from "./todoReducer";
+import { I_ActionTodo, I_InitialTodo } from "./I-UseReducer";
 
 const initialTodo:I_InitialTodo[] = []
 

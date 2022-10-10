@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { I_CounterApp } from "../helpers/I-CounterApp";
+import { I_CounterApp } from "./I-CounterApp";
 
 export const useCounter = ( objCounterApp:I_CounterApp ) => {
 
